@@ -1,19 +1,19 @@
 {
-  "_from": "phonegap-plugin-local-notification",
+  "_from": "phonegap-plugin-local-notification@^1.0.1",
   "_id": "phonegap-plugin-local-notification@1.0.1",
   "_inBundle": false,
   "_integrity": "sha1-GE9D+1TcARE8y6V5oDrO66eVqds=",
   "_location": "/phonegap-plugin-local-notification",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "range",
     "registry": true,
-    "raw": "phonegap-plugin-local-notification",
+    "raw": "phonegap-plugin-local-notification@^1.0.1",
     "name": "phonegap-plugin-local-notification",
     "escapedName": "phonegap-plugin-local-notification",
-    "rawSpec": "",
+    "rawSpec": "^1.0.1",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "^1.0.1"
   },
   "_requiredBy": [
     "#USER",
@@ -21,7 +21,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/phonegap-plugin-local-notification/-/phonegap-plugin-local-notification-1.0.1.tgz",
   "_shasum": "184f43fb54dc01113ccba579a03aceeba795a9db",
-  "_spec": "phonegap-plugin-local-notification",
+  "_spec": "phonegap-plugin-local-notification@^1.0.1",
   "_where": "C:\\Users\\Marlon\\Documents\\GitHub\\conoceme_cordova",
   "author": {
     "name": "Adobe PhoneGap Team"

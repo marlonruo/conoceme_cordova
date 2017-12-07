@@ -407,6 +407,7 @@ module.exports.metadata =
   "cordova-plugin-device": "1.1.7",
   "cordova-plugin-badge": "0.8.5",
   "cordova-plugin-local-notification": "0.9.0-beta.1",
+  "cordova-plugin-app-event": "1.2.1",
   "phonegap-plugin-local-notification": "1.0.1"
 };
 // BOTTOM OF METADATA

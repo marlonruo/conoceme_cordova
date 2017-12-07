@@ -53,6 +53,9 @@
     },
     "cordova-plugin-badge": {
       "PACKAGE_NAME": "org.conoceme"
+    },
+    "cordova-plugin-app-event": {
+      "PACKAGE_NAME": "org.conoceme"
     }
   }
 }
