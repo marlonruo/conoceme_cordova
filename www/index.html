@@ -3188,6 +3188,7 @@ function abrir_canal(numero){
 					$('#bt_chat').show()
 					$('#mensajes').show()
 					reff()
+					michat();
 					StatusBar.hide();
 				}
 				
@@ -3355,6 +3356,36 @@ function abrir_canal(numero){
 			var respuesta
 			var checar
 			var totalMensajes;
+	
+	
+	
+	
+			function michat(){
+			
+					//var v_userId = 'gea_reyesvi@yahoo.com.mx';
+					var v_id = id;
+					var v_userId = p_correo;			
+					
+					//$("#chat").on('ready', function () {
+						var alUser = {
+									'userId' : v_userId,   //Replace it with the userId of the logged in user NOTE : userId need to be string and  +,*,? are not allowed chars in userId.
+											//'password' : password,  //Put password here
+											//	'authenticationTypeId' : 1,
+									'applicationId' : '3b66345c921f7a78c8414e15221417cf7',  //replace "applozic-sample-app" with Application Key from Applozic Dashboard
+									'deviceApnsType' : 0    //Set 0 for Development and 1 for Distribution (Release)
+								};
+
+						$applozic = applozic.login(alUser, function() {
+							   applozic.registerPushNotification(function() {}, function(){});
+							   applozic.launchChat(function() {}, function() {});
+						}, function() {});					
+					
+					//});			
+			
+			}
+	
+	
+	
 	
 			function llamadas(){
 				$.ajax({
